@@ -1,0 +1,1662 @@
+[
+  {
+    "id": "bbff3d61-73aa-5b0b-a224-bfd5cad5d507",
+    "reference_number": "GEM/2026/B/1000001",
+    "title": "Supply, Delivery and Commissioning of 33kV Electrical Switchgears & Transformers",
+    "description": "Synthetic GeM Procurement Tender for Supply, Delivery and Commissioning of 33kV Electrical Switchgears & Transformers.",
+    "status": "PUBLISHED",
+    "estimated_value": 290000000.0,
+    "minimum_turnover": 100000000.0,
+    "minimum_local_content": 50.0,
+    "requirements": [
+      {
+        "requirement_key": "pan_mandatory",
+        "definition": {
+          "field": "pan",
+          "type": "presence",
+          "description": "Valid PAN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "gstin_mandatory",
+        "definition": {
+          "field": "gstin",
+          "type": "presence",
+          "active_required": true,
+          "description": "Active GSTIN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "udyam_registration",
+        "definition": {
+          "field": "udyam",
+          "type": "presence",
+          "description": "Valid MSME/Udyam certificate required"
+        },
+        "mandatory": false
+      },
+      {
+        "requirement_key": "minimum_annual_turnover",
+        "definition": {
+          "field": "annual_turnover",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 100000000.0,
+          "currency": "INR",
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "minimum_local_content",
+        "definition": {
+          "field": "local_content_percentage",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 50.0,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "oem_authorization",
+        "definition": {
+          "field": "oem_authorized",
+          "type": "equality",
+          "value": true,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "non_debarment_declaration",
+        "definition": {
+          "field": "is_debarred",
+          "type": "equality",
+          "value": false,
+          "mandatory": true
+        },
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "0119d588-2b92-5ad5-b167-d0236b0d54d0",
+    "reference_number": "GEM/2026/B/1000002",
+    "title": "Procurement of Industrial High-Precision Ultrasonic Flow Measurement Systems",
+    "description": "Synthetic GeM Procurement Tender for Procurement of Industrial High-Precision Ultrasonic Flow Measurement Systems.",
+    "status": "PUBLISHED",
+    "estimated_value": 250000000.0,
+    "minimum_turnover": 100000000.0,
+    "minimum_local_content": 50.0,
+    "requirements": [
+      {
+        "requirement_key": "pan_mandatory",
+        "definition": {
+          "field": "pan",
+          "type": "presence",
+          "description": "Valid PAN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "gstin_mandatory",
+        "definition": {
+          "field": "gstin",
+          "type": "presence",
+          "active_required": true,
+          "description": "Active GSTIN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "udyam_registration",
+        "definition": {
+          "field": "udyam",
+          "type": "presence",
+          "description": "Valid MSME/Udyam certificate required"
+        },
+        "mandatory": false
+      },
+      {
+        "requirement_key": "minimum_annual_turnover",
+        "definition": {
+          "field": "annual_turnover",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 100000000.0,
+          "currency": "INR",
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "minimum_local_content",
+        "definition": {
+          "field": "local_content_percentage",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 50.0,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "oem_authorization",
+        "definition": {
+          "field": "oem_authorized",
+          "type": "equality",
+          "value": true,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "non_debarment_declaration",
+        "definition": {
+          "field": "is_debarred",
+          "type": "equality",
+          "value": false,
+          "mandatory": true
+        },
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "785537ba-fcc3-5709-93a0-fe99d722d6ad",
+    "reference_number": "GEM/2026/B/1000003",
+    "title": "Supply of Heavy-Duty Centrifugal Pumps for Municipal Water Treatment Plant",
+    "description": "Synthetic GeM Procurement Tender for Supply of Heavy-Duty Centrifugal Pumps for Municipal Water Treatment Plant.",
+    "status": "PUBLISHED",
+    "estimated_value": 50000000.0,
+    "minimum_turnover": 100000000.0,
+    "minimum_local_content": 50.0,
+    "requirements": [
+      {
+        "requirement_key": "pan_mandatory",
+        "definition": {
+          "field": "pan",
+          "type": "presence",
+          "description": "Valid PAN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "gstin_mandatory",
+        "definition": {
+          "field": "gstin",
+          "type": "presence",
+          "active_required": true,
+          "description": "Active GSTIN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "udyam_registration",
+        "definition": {
+          "field": "udyam",
+          "type": "presence",
+          "description": "Valid MSME/Udyam certificate required"
+        },
+        "mandatory": false
+      },
+      {
+        "requirement_key": "minimum_annual_turnover",
+        "definition": {
+          "field": "annual_turnover",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 100000000.0,
+          "currency": "INR",
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "minimum_local_content",
+        "definition": {
+          "field": "local_content_percentage",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 50.0,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "oem_authorization",
+        "definition": {
+          "field": "oem_authorized",
+          "type": "equality",
+          "value": true,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "non_debarment_declaration",
+        "definition": {
+          "field": "is_debarred",
+          "type": "equality",
+          "value": false,
+          "mandatory": true
+        },
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "a29229ba-1d74-5999-8414-4e51bc25a3f3",
+    "reference_number": "GEM/2026/B/1000004",
+    "title": "Procurement of Specialized Aerospace Grade Fasteners & Precision Hardware",
+    "description": "Synthetic GeM Procurement Tender for Procurement of Specialized Aerospace Grade Fasteners & Precision Hardware.",
+    "status": "PUBLISHED",
+    "estimated_value": 90000000.0,
+    "minimum_turnover": 100000000.0,
+    "minimum_local_content": 50.0,
+    "requirements": [
+      {
+        "requirement_key": "pan_mandatory",
+        "definition": {
+          "field": "pan",
+          "type": "presence",
+          "description": "Valid PAN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "gstin_mandatory",
+        "definition": {
+          "field": "gstin",
+          "type": "presence",
+          "active_required": true,
+          "description": "Active GSTIN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "udyam_registration",
+        "definition": {
+          "field": "udyam",
+          "type": "presence",
+          "description": "Valid MSME/Udyam certificate required"
+        },
+        "mandatory": false
+      },
+      {
+        "requirement_key": "minimum_annual_turnover",
+        "definition": {
+          "field": "annual_turnover",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 100000000.0,
+          "currency": "INR",
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "minimum_local_content",
+        "definition": {
+          "field": "local_content_percentage",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 50.0,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "oem_authorization",
+        "definition": {
+          "field": "oem_authorized",
+          "type": "equality",
+          "value": true,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "non_debarment_declaration",
+        "definition": {
+          "field": "is_debarred",
+          "type": "equality",
+          "value": false,
+          "mandatory": true
+        },
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "cce363a0-bb60-5039-a4f7-00f5a5292734",
+    "reference_number": "GEM/2026/B/1000005",
+    "title": "Supply and Installation of 500kW Rooftop Solar Photovoltaic Grid Systems",
+    "description": "Synthetic GeM Procurement Tender for Supply and Installation of 500kW Rooftop Solar Photovoltaic Grid Systems.",
+    "status": "PUBLISHED",
+    "estimated_value": 50000000.0,
+    "minimum_turnover": 100000000.0,
+    "minimum_local_content": 50.0,
+    "requirements": [
+      {
+        "requirement_key": "pan_mandatory",
+        "definition": {
+          "field": "pan",
+          "type": "presence",
+          "description": "Valid PAN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "gstin_mandatory",
+        "definition": {
+          "field": "gstin",
+          "type": "presence",
+          "active_required": true,
+          "description": "Active GSTIN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "udyam_registration",
+        "definition": {
+          "field": "udyam",
+          "type": "presence",
+          "description": "Valid MSME/Udyam certificate required"
+        },
+        "mandatory": false
+      },
+      {
+        "requirement_key": "minimum_annual_turnover",
+        "definition": {
+          "field": "annual_turnover",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 100000000.0,
+          "currency": "INR",
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "minimum_local_content",
+        "definition": {
+          "field": "local_content_percentage",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 50.0,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "oem_authorization",
+        "definition": {
+          "field": "oem_authorized",
+          "type": "equality",
+          "value": true,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "non_debarment_declaration",
+        "definition": {
+          "field": "is_debarred",
+          "type": "equality",
+          "value": false,
+          "mandatory": true
+        },
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "c4abb368-dae9-50dc-98a1-bd6699e069bf",
+    "reference_number": "GEM/2026/B/1000006",
+    "title": "Procurement of CNC Lathe Machines & Multi-Axis Vertical Machining Centers",
+    "description": "Synthetic GeM Procurement Tender for Procurement of CNC Lathe Machines & Multi-Axis Vertical Machining Centers.",
+    "status": "PUBLISHED",
+    "estimated_value": 70000000.0,
+    "minimum_turnover": 100000000.0,
+    "minimum_local_content": 50.0,
+    "requirements": [
+      {
+        "requirement_key": "pan_mandatory",
+        "definition": {
+          "field": "pan",
+          "type": "presence",
+          "description": "Valid PAN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "gstin_mandatory",
+        "definition": {
+          "field": "gstin",
+          "type": "presence",
+          "active_required": true,
+          "description": "Active GSTIN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "udyam_registration",
+        "definition": {
+          "field": "udyam",
+          "type": "presence",
+          "description": "Valid MSME/Udyam certificate required"
+        },
+        "mandatory": false
+      },
+      {
+        "requirement_key": "minimum_annual_turnover",
+        "definition": {
+          "field": "annual_turnover",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 100000000.0,
+          "currency": "INR",
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "minimum_local_content",
+        "definition": {
+          "field": "local_content_percentage",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 50.0,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "oem_authorization",
+        "definition": {
+          "field": "oem_authorized",
+          "type": "equality",
+          "value": true,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "non_debarment_declaration",
+        "definition": {
+          "field": "is_debarred",
+          "type": "equality",
+          "value": false,
+          "mandatory": true
+        },
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "c6c35b72-02c3-5523-952e-8d3acae6562d",
+    "reference_number": "GEM/2026/B/1000007",
+    "title": "Supply of SCADA Automated Remote Terminal Units for Substation Automation",
+    "description": "Synthetic GeM Procurement Tender for Supply of SCADA Automated Remote Terminal Units for Substation Automation.",
+    "status": "PUBLISHED",
+    "estimated_value": 30000000.0,
+    "minimum_turnover": 100000000.0,
+    "minimum_local_content": 50.0,
+    "requirements": [
+      {
+        "requirement_key": "pan_mandatory",
+        "definition": {
+          "field": "pan",
+          "type": "presence",
+          "description": "Valid PAN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "gstin_mandatory",
+        "definition": {
+          "field": "gstin",
+          "type": "presence",
+          "active_required": true,
+          "description": "Active GSTIN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "udyam_registration",
+        "definition": {
+          "field": "udyam",
+          "type": "presence",
+          "description": "Valid MSME/Udyam certificate required"
+        },
+        "mandatory": false
+      },
+      {
+        "requirement_key": "minimum_annual_turnover",
+        "definition": {
+          "field": "annual_turnover",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 100000000.0,
+          "currency": "INR",
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "minimum_local_content",
+        "definition": {
+          "field": "local_content_percentage",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 50.0,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "oem_authorization",
+        "definition": {
+          "field": "oem_authorized",
+          "type": "equality",
+          "value": true,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "non_debarment_declaration",
+        "definition": {
+          "field": "is_debarred",
+          "type": "equality",
+          "value": false,
+          "mandatory": true
+        },
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "04177337-32d5-53ba-bc00-b4c81ceebcf1",
+    "reference_number": "GEM/2026/B/1000008",
+    "title": "Procurement of Fiber Optic High-Speed Communication Cables and Ducting",
+    "description": "Synthetic GeM Procurement Tender for Procurement of Fiber Optic High-Speed Communication Cables and Ducting.",
+    "status": "PUBLISHED",
+    "estimated_value": 250000000.0,
+    "minimum_turnover": 100000000.0,
+    "minimum_local_content": 50.0,
+    "requirements": [
+      {
+        "requirement_key": "pan_mandatory",
+        "definition": {
+          "field": "pan",
+          "type": "presence",
+          "description": "Valid PAN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "gstin_mandatory",
+        "definition": {
+          "field": "gstin",
+          "type": "presence",
+          "active_required": true,
+          "description": "Active GSTIN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "udyam_registration",
+        "definition": {
+          "field": "udyam",
+          "type": "presence",
+          "description": "Valid MSME/Udyam certificate required"
+        },
+        "mandatory": false
+      },
+      {
+        "requirement_key": "minimum_annual_turnover",
+        "definition": {
+          "field": "annual_turnover",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 100000000.0,
+          "currency": "INR",
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "minimum_local_content",
+        "definition": {
+          "field": "local_content_percentage",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 50.0,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "oem_authorization",
+        "definition": {
+          "field": "oem_authorized",
+          "type": "equality",
+          "value": true,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "non_debarment_declaration",
+        "definition": {
+          "field": "is_debarred",
+          "type": "equality",
+          "value": false,
+          "mandatory": true
+        },
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "98638d44-d858-5212-9540-6345c92ee80c",
+    "reference_number": "GEM/2026/B/1000009",
+    "title": "Supply of Fabricated Structural Steel Beams and Girders for Highway Bridges",
+    "description": "Synthetic GeM Procurement Tender for Supply of Fabricated Structural Steel Beams and Girders for Highway Bridges.",
+    "status": "PUBLISHED",
+    "estimated_value": 130000000.0,
+    "minimum_turnover": 100000000.0,
+    "minimum_local_content": 50.0,
+    "requirements": [
+      {
+        "requirement_key": "pan_mandatory",
+        "definition": {
+          "field": "pan",
+          "type": "presence",
+          "description": "Valid PAN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "gstin_mandatory",
+        "definition": {
+          "field": "gstin",
+          "type": "presence",
+          "active_required": true,
+          "description": "Active GSTIN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "udyam_registration",
+        "definition": {
+          "field": "udyam",
+          "type": "presence",
+          "description": "Valid MSME/Udyam certificate required"
+        },
+        "mandatory": false
+      },
+      {
+        "requirement_key": "minimum_annual_turnover",
+        "definition": {
+          "field": "annual_turnover",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 100000000.0,
+          "currency": "INR",
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "minimum_local_content",
+        "definition": {
+          "field": "local_content_percentage",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 50.0,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "oem_authorization",
+        "definition": {
+          "field": "oem_authorized",
+          "type": "equality",
+          "value": true,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "non_debarment_declaration",
+        "definition": {
+          "field": "is_debarred",
+          "type": "equality",
+          "value": false,
+          "mandatory": true
+        },
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "deb71f82-4d0c-5dab-8a58-4f698e36ad8a",
+    "reference_number": "GEM/2026/B/1000010",
+    "title": "Procurement of Hospital Air Purification & Sterile HVAC Filtration Units",
+    "description": "Synthetic GeM Procurement Tender for Procurement of Hospital Air Purification & Sterile HVAC Filtration Units.",
+    "status": "PUBLISHED",
+    "estimated_value": 240000000.0,
+    "minimum_turnover": 100000000.0,
+    "minimum_local_content": 50.0,
+    "requirements": [
+      {
+        "requirement_key": "pan_mandatory",
+        "definition": {
+          "field": "pan",
+          "type": "presence",
+          "description": "Valid PAN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "gstin_mandatory",
+        "definition": {
+          "field": "gstin",
+          "type": "presence",
+          "active_required": true,
+          "description": "Active GSTIN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "udyam_registration",
+        "definition": {
+          "field": "udyam",
+          "type": "presence",
+          "description": "Valid MSME/Udyam certificate required"
+        },
+        "mandatory": false
+      },
+      {
+        "requirement_key": "minimum_annual_turnover",
+        "definition": {
+          "field": "annual_turnover",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 100000000.0,
+          "currency": "INR",
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "minimum_local_content",
+        "definition": {
+          "field": "local_content_percentage",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 50.0,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "oem_authorization",
+        "definition": {
+          "field": "oem_authorized",
+          "type": "equality",
+          "value": true,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "non_debarment_declaration",
+        "definition": {
+          "field": "is_debarred",
+          "type": "equality",
+          "value": false,
+          "mandatory": true
+        },
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "ec92e6e6-2528-5cf6-9e50-5f4a0429c308",
+    "reference_number": "GEM/2026/B/1000011",
+    "title": "Supply of High-Capacity Fire Fighting Engines & Emergency Rescue Vehicles",
+    "description": "Synthetic GeM Procurement Tender for Supply of High-Capacity Fire Fighting Engines & Emergency Rescue Vehicles.",
+    "status": "PUBLISHED",
+    "estimated_value": 180000000.0,
+    "minimum_turnover": 100000000.0,
+    "minimum_local_content": 50.0,
+    "requirements": [
+      {
+        "requirement_key": "pan_mandatory",
+        "definition": {
+          "field": "pan",
+          "type": "presence",
+          "description": "Valid PAN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "gstin_mandatory",
+        "definition": {
+          "field": "gstin",
+          "type": "presence",
+          "active_required": true,
+          "description": "Active GSTIN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "udyam_registration",
+        "definition": {
+          "field": "udyam",
+          "type": "presence",
+          "description": "Valid MSME/Udyam certificate required"
+        },
+        "mandatory": false
+      },
+      {
+        "requirement_key": "minimum_annual_turnover",
+        "definition": {
+          "field": "annual_turnover",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 100000000.0,
+          "currency": "INR",
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "minimum_local_content",
+        "definition": {
+          "field": "local_content_percentage",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 50.0,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "oem_authorization",
+        "definition": {
+          "field": "oem_authorized",
+          "type": "equality",
+          "value": true,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "non_debarment_declaration",
+        "definition": {
+          "field": "is_debarred",
+          "type": "equality",
+          "value": false,
+          "mandatory": true
+        },
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "36a8d1b5-986f-5430-8bec-2707464820f6",
+    "reference_number": "GEM/2026/B/1000012",
+    "title": "Procurement of Automated Surface Metrology & Digital Measurement Probes",
+    "description": "Synthetic GeM Procurement Tender for Procurement of Automated Surface Metrology & Digital Measurement Probes.",
+    "status": "PUBLISHED",
+    "estimated_value": 100000000.0,
+    "minimum_turnover": 100000000.0,
+    "minimum_local_content": 50.0,
+    "requirements": [
+      {
+        "requirement_key": "pan_mandatory",
+        "definition": {
+          "field": "pan",
+          "type": "presence",
+          "description": "Valid PAN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "gstin_mandatory",
+        "definition": {
+          "field": "gstin",
+          "type": "presence",
+          "active_required": true,
+          "description": "Active GSTIN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "udyam_registration",
+        "definition": {
+          "field": "udyam",
+          "type": "presence",
+          "description": "Valid MSME/Udyam certificate required"
+        },
+        "mandatory": false
+      },
+      {
+        "requirement_key": "minimum_annual_turnover",
+        "definition": {
+          "field": "annual_turnover",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 100000000.0,
+          "currency": "INR",
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "minimum_local_content",
+        "definition": {
+          "field": "local_content_percentage",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 50.0,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "oem_authorization",
+        "definition": {
+          "field": "oem_authorized",
+          "type": "equality",
+          "value": true,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "non_debarment_declaration",
+        "definition": {
+          "field": "is_debarred",
+          "type": "equality",
+          "value": false,
+          "mandatory": true
+        },
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "32808b54-daa8-5bb5-809f-6d83ee771d8b",
+    "reference_number": "GEM/2026/B/1000013",
+    "title": "Supply, Delivery and Commissioning of 33kV Electrical Switchgears & Transformers",
+    "description": "Synthetic GeM Procurement Tender for Supply, Delivery and Commissioning of 33kV Electrical Switchgears & Transformers.",
+    "status": "PUBLISHED",
+    "estimated_value": 240000000.0,
+    "minimum_turnover": 100000000.0,
+    "minimum_local_content": 50.0,
+    "requirements": [
+      {
+        "requirement_key": "pan_mandatory",
+        "definition": {
+          "field": "pan",
+          "type": "presence",
+          "description": "Valid PAN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "gstin_mandatory",
+        "definition": {
+          "field": "gstin",
+          "type": "presence",
+          "active_required": true,
+          "description": "Active GSTIN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "udyam_registration",
+        "definition": {
+          "field": "udyam",
+          "type": "presence",
+          "description": "Valid MSME/Udyam certificate required"
+        },
+        "mandatory": false
+      },
+      {
+        "requirement_key": "minimum_annual_turnover",
+        "definition": {
+          "field": "annual_turnover",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 100000000.0,
+          "currency": "INR",
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "minimum_local_content",
+        "definition": {
+          "field": "local_content_percentage",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 50.0,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "oem_authorization",
+        "definition": {
+          "field": "oem_authorized",
+          "type": "equality",
+          "value": true,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "non_debarment_declaration",
+        "definition": {
+          "field": "is_debarred",
+          "type": "equality",
+          "value": false,
+          "mandatory": true
+        },
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "7a567981-febf-5c14-952e-efe8ab5e02d7",
+    "reference_number": "GEM/2026/B/1000014",
+    "title": "Procurement of Industrial High-Precision Ultrasonic Flow Measurement Systems",
+    "description": "Synthetic GeM Procurement Tender for Procurement of Industrial High-Precision Ultrasonic Flow Measurement Systems.",
+    "status": "PUBLISHED",
+    "estimated_value": 50000000.0,
+    "minimum_turnover": 100000000.0,
+    "minimum_local_content": 50.0,
+    "requirements": [
+      {
+        "requirement_key": "pan_mandatory",
+        "definition": {
+          "field": "pan",
+          "type": "presence",
+          "description": "Valid PAN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "gstin_mandatory",
+        "definition": {
+          "field": "gstin",
+          "type": "presence",
+          "active_required": true,
+          "description": "Active GSTIN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "udyam_registration",
+        "definition": {
+          "field": "udyam",
+          "type": "presence",
+          "description": "Valid MSME/Udyam certificate required"
+        },
+        "mandatory": false
+      },
+      {
+        "requirement_key": "minimum_annual_turnover",
+        "definition": {
+          "field": "annual_turnover",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 100000000.0,
+          "currency": "INR",
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "minimum_local_content",
+        "definition": {
+          "field": "local_content_percentage",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 50.0,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "oem_authorization",
+        "definition": {
+          "field": "oem_authorized",
+          "type": "equality",
+          "value": true,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "non_debarment_declaration",
+        "definition": {
+          "field": "is_debarred",
+          "type": "equality",
+          "value": false,
+          "mandatory": true
+        },
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "d7a9c285-4857-5b4d-99ac-f1ae8818d479",
+    "reference_number": "GEM/2026/B/1000015",
+    "title": "Supply of Heavy-Duty Centrifugal Pumps for Municipal Water Treatment Plant",
+    "description": "Synthetic GeM Procurement Tender for Supply of Heavy-Duty Centrifugal Pumps for Municipal Water Treatment Plant.",
+    "status": "PUBLISHED",
+    "estimated_value": 280000000.0,
+    "minimum_turnover": 100000000.0,
+    "minimum_local_content": 50.0,
+    "requirements": [
+      {
+        "requirement_key": "pan_mandatory",
+        "definition": {
+          "field": "pan",
+          "type": "presence",
+          "description": "Valid PAN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "gstin_mandatory",
+        "definition": {
+          "field": "gstin",
+          "type": "presence",
+          "active_required": true,
+          "description": "Active GSTIN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "udyam_registration",
+        "definition": {
+          "field": "udyam",
+          "type": "presence",
+          "description": "Valid MSME/Udyam certificate required"
+        },
+        "mandatory": false
+      },
+      {
+        "requirement_key": "minimum_annual_turnover",
+        "definition": {
+          "field": "annual_turnover",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 100000000.0,
+          "currency": "INR",
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "minimum_local_content",
+        "definition": {
+          "field": "local_content_percentage",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 50.0,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "oem_authorization",
+        "definition": {
+          "field": "oem_authorized",
+          "type": "equality",
+          "value": true,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "non_debarment_declaration",
+        "definition": {
+          "field": "is_debarred",
+          "type": "equality",
+          "value": false,
+          "mandatory": true
+        },
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "4c05fdda-2dc8-5426-b85c-902513620a46",
+    "reference_number": "GEM/2026/B/1000016",
+    "title": "Procurement of Specialized Aerospace Grade Fasteners & Precision Hardware",
+    "description": "Synthetic GeM Procurement Tender for Procurement of Specialized Aerospace Grade Fasteners & Precision Hardware.",
+    "status": "PUBLISHED",
+    "estimated_value": 300000000.0,
+    "minimum_turnover": 100000000.0,
+    "minimum_local_content": 50.0,
+    "requirements": [
+      {
+        "requirement_key": "pan_mandatory",
+        "definition": {
+          "field": "pan",
+          "type": "presence",
+          "description": "Valid PAN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "gstin_mandatory",
+        "definition": {
+          "field": "gstin",
+          "type": "presence",
+          "active_required": true,
+          "description": "Active GSTIN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "udyam_registration",
+        "definition": {
+          "field": "udyam",
+          "type": "presence",
+          "description": "Valid MSME/Udyam certificate required"
+        },
+        "mandatory": false
+      },
+      {
+        "requirement_key": "minimum_annual_turnover",
+        "definition": {
+          "field": "annual_turnover",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 100000000.0,
+          "currency": "INR",
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "minimum_local_content",
+        "definition": {
+          "field": "local_content_percentage",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 50.0,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "oem_authorization",
+        "definition": {
+          "field": "oem_authorized",
+          "type": "equality",
+          "value": true,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "non_debarment_declaration",
+        "definition": {
+          "field": "is_debarred",
+          "type": "equality",
+          "value": false,
+          "mandatory": true
+        },
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "79dea678-85bb-50c0-9f63-12e1d3bdaa35",
+    "reference_number": "GEM/2026/B/1000017",
+    "title": "Supply and Installation of 500kW Rooftop Solar Photovoltaic Grid Systems",
+    "description": "Synthetic GeM Procurement Tender for Supply and Installation of 500kW Rooftop Solar Photovoltaic Grid Systems.",
+    "status": "PUBLISHED",
+    "estimated_value": 80000000.0,
+    "minimum_turnover": 100000000.0,
+    "minimum_local_content": 50.0,
+    "requirements": [
+      {
+        "requirement_key": "pan_mandatory",
+        "definition": {
+          "field": "pan",
+          "type": "presence",
+          "description": "Valid PAN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "gstin_mandatory",
+        "definition": {
+          "field": "gstin",
+          "type": "presence",
+          "active_required": true,
+          "description": "Active GSTIN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "udyam_registration",
+        "definition": {
+          "field": "udyam",
+          "type": "presence",
+          "description": "Valid MSME/Udyam certificate required"
+        },
+        "mandatory": false
+      },
+      {
+        "requirement_key": "minimum_annual_turnover",
+        "definition": {
+          "field": "annual_turnover",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 100000000.0,
+          "currency": "INR",
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "minimum_local_content",
+        "definition": {
+          "field": "local_content_percentage",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 50.0,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "oem_authorization",
+        "definition": {
+          "field": "oem_authorized",
+          "type": "equality",
+          "value": true,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "non_debarment_declaration",
+        "definition": {
+          "field": "is_debarred",
+          "type": "equality",
+          "value": false,
+          "mandatory": true
+        },
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "c50bf80a-d0cd-569b-bc66-87a18f8ba632",
+    "reference_number": "GEM/2026/B/1000018",
+    "title": "Procurement of CNC Lathe Machines & Multi-Axis Vertical Machining Centers",
+    "description": "Synthetic GeM Procurement Tender for Procurement of CNC Lathe Machines & Multi-Axis Vertical Machining Centers.",
+    "status": "PUBLISHED",
+    "estimated_value": 290000000.0,
+    "minimum_turnover": 100000000.0,
+    "minimum_local_content": 50.0,
+    "requirements": [
+      {
+        "requirement_key": "pan_mandatory",
+        "definition": {
+          "field": "pan",
+          "type": "presence",
+          "description": "Valid PAN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "gstin_mandatory",
+        "definition": {
+          "field": "gstin",
+          "type": "presence",
+          "active_required": true,
+          "description": "Active GSTIN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "udyam_registration",
+        "definition": {
+          "field": "udyam",
+          "type": "presence",
+          "description": "Valid MSME/Udyam certificate required"
+        },
+        "mandatory": false
+      },
+      {
+        "requirement_key": "minimum_annual_turnover",
+        "definition": {
+          "field": "annual_turnover",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 100000000.0,
+          "currency": "INR",
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "minimum_local_content",
+        "definition": {
+          "field": "local_content_percentage",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 50.0,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "oem_authorization",
+        "definition": {
+          "field": "oem_authorized",
+          "type": "equality",
+          "value": true,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "non_debarment_declaration",
+        "definition": {
+          "field": "is_debarred",
+          "type": "equality",
+          "value": false,
+          "mandatory": true
+        },
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "fab6ec9c-97c4-52e1-bb6a-e957419f2cf7",
+    "reference_number": "GEM/2026/B/1000019",
+    "title": "Supply of SCADA Automated Remote Terminal Units for Substation Automation",
+    "description": "Synthetic GeM Procurement Tender for Supply of SCADA Automated Remote Terminal Units for Substation Automation.",
+    "status": "PUBLISHED",
+    "estimated_value": 30000000.0,
+    "minimum_turnover": 100000000.0,
+    "minimum_local_content": 50.0,
+    "requirements": [
+      {
+        "requirement_key": "pan_mandatory",
+        "definition": {
+          "field": "pan",
+          "type": "presence",
+          "description": "Valid PAN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "gstin_mandatory",
+        "definition": {
+          "field": "gstin",
+          "type": "presence",
+          "active_required": true,
+          "description": "Active GSTIN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "udyam_registration",
+        "definition": {
+          "field": "udyam",
+          "type": "presence",
+          "description": "Valid MSME/Udyam certificate required"
+        },
+        "mandatory": false
+      },
+      {
+        "requirement_key": "minimum_annual_turnover",
+        "definition": {
+          "field": "annual_turnover",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 100000000.0,
+          "currency": "INR",
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "minimum_local_content",
+        "definition": {
+          "field": "local_content_percentage",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 50.0,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "oem_authorization",
+        "definition": {
+          "field": "oem_authorized",
+          "type": "equality",
+          "value": true,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "non_debarment_declaration",
+        "definition": {
+          "field": "is_debarred",
+          "type": "equality",
+          "value": false,
+          "mandatory": true
+        },
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "95c6efb2-df6b-5a77-a192-e3996434b4b8",
+    "reference_number": "GEM/2026/B/1000020",
+    "title": "Procurement of Fiber Optic High-Speed Communication Cables and Ducting",
+    "description": "Synthetic GeM Procurement Tender for Procurement of Fiber Optic High-Speed Communication Cables and Ducting.",
+    "status": "PUBLISHED",
+    "estimated_value": 200000000.0,
+    "minimum_turnover": 100000000.0,
+    "minimum_local_content": 50.0,
+    "requirements": [
+      {
+        "requirement_key": "pan_mandatory",
+        "definition": {
+          "field": "pan",
+          "type": "presence",
+          "description": "Valid PAN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "gstin_mandatory",
+        "definition": {
+          "field": "gstin",
+          "type": "presence",
+          "active_required": true,
+          "description": "Active GSTIN required"
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "udyam_registration",
+        "definition": {
+          "field": "udyam",
+          "type": "presence",
+          "description": "Valid MSME/Udyam certificate required"
+        },
+        "mandatory": false
+      },
+      {
+        "requirement_key": "minimum_annual_turnover",
+        "definition": {
+          "field": "annual_turnover",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 100000000.0,
+          "currency": "INR",
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "minimum_local_content",
+        "definition": {
+          "field": "local_content_percentage",
+          "type": "numeric_threshold",
+          "operator": ">=",
+          "value": 50.0,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "oem_authorization",
+        "definition": {
+          "field": "oem_authorized",
+          "type": "equality",
+          "value": true,
+          "mandatory": true
+        },
+        "mandatory": true
+      },
+      {
+        "requirement_key": "non_debarment_declaration",
+        "definition": {
+          "field": "is_debarred",
+          "type": "equality",
+          "value": false,
+          "mandatory": true
+        },
+        "mandatory": true
+      }
+    ]
+  }
+]

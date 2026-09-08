@@ -1,0 +1,47 @@
+[
+  {
+    "rule_id": "R001",
+    "category": "financial",
+    "parameter": "annual_turnover",
+    "operator": ">=",
+    "required_value": 50,
+    "unit": "lakhs",
+    "currency": "INR",
+    "requirement_text": "Vendor must have an annual turnover of at least ₹50 Lakhs.",
+    "requirement_type": "numeric_comparison"
+  },
+  {
+    "rule_id": "R002",
+    "category": "technical",
+    "parameter": "RAM",
+    "operator": ">=",
+    "required_value": 2,
+    "unit": "TB",
+    "currency": null,
+    "requirement_text": "AI Workload Node RAM must be at least 2 TB.",
+    "requirement_type": "numeric_comparison"
+  },
+  {
+    "rule_id": "R003",
+    "category": "compliance",
+    "parameter": "Manufacturer Authorization Form",
+    "operator": "exists",
+    "required_value": "Manufacturer Authorization Form",
+    "unit": null,
+    "currency": null,
+    "requirement_text": "Manufacturer Authorization Form is mandatory.",
+    "requirement_type": "document_exists"
+  },
+  {
+    "rule_id": "R004",
+    "category": "technical",
+    "parameter": "GPU Memory",
+    "operator": ">=",
+    "required_value": 192,
+    "unit": "GB",
+    "currency": null,
+    "requirement_text": "8 dedicated GPU units with minimum 192 GB memory per GPU.",
+    "requirement_type": "ambiguous"
+  }
+]
+

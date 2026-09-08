@@ -1,0 +1,92 @@
+[
+  {
+    "bidder_id": "B001",
+    "rule_id": "R001",
+    "status": "COMPLIANT",
+    "requirement": "Vendor must have an annual turnover of at least ₹50 Lakhs.",
+    "required_value": "₹50 Lakhs",
+    "observed_value": "₹65 Lakhs",
+    "reason": "Observed annual_turnover (6500000.0 INR) satisfies minimum requirement (>= 5000000.0 INR).",
+    "evidence": [
+      {
+        "text": "The company's reported annual turnover is ₹65 Lakhs.",
+        "source_file": "Financial_Statement.pdf",
+        "page": 42
+      }
+    ],
+    "confidence": 1.0,
+    "method": "deterministic_rule"
+  },
+  {
+    "bidder_id": "B002",
+    "rule_id": "R001",
+    "status": "NON_COMPLIANT",
+    "requirement": "Vendor must have an annual turnover of at least ₹50 Lakhs.",
+    "required_value": "₹50 Lakhs",
+    "observed_value": "₹35 Lakhs",
+    "reason": "Observed annual_turnover (3500000.0 INR) is below the minimum required (5000000.0 INR).",
+    "evidence": [
+      {
+        "text": "The company's reported annual turnover is ₹35 Lakhs.",
+        "source_file": "Financial_Statement.pdf",
+        "page": 12
+      }
+    ],
+    "confidence": 1.0,
+    "method": "deterministic_rule"
+  },
+  {
+    "bidder_id": "B003",
+    "rule_id": "R003",
+    "status": "MISSING",
+    "requirement": "Manufacturer Authorization Form is mandatory.",
+    "required_value": "Manufacturer Authorization Form",
+    "observed_value": null,
+    "reason": "No evidence was retrieved for the required condition: 'Manufacturer Authorization Form is mandatory.'.",
+    "evidence": [],
+    "confidence": 1.0,
+    "method": "deterministic_rule"
+  },
+  {
+    "bidder_id": "B004",
+    "rule_id": "R004",
+    "status": "REVIEW",
+    "requirement": "8 dedicated GPU units with minimum 192 GB memory per GPU.",
+    "required_value": "192 GB",
+    "observed_value": "96 GB or 192 GB depending on configuration",
+    "reason": "The bidder does not clearly commit to a configuration satisfying 192 GB memory per GPU.",
+    "evidence": [
+      {
+        "text": "Supports up to 8 full-size modules OR up to 16 half-size modules. Memory may be 8 × 192 GB OR 16 × 96 GB.",
+        "source_file": "GPU_Datasheet.pdf",
+        "page": 12
+      }
+    ],
+    "confidence": 1.0,
+    "method": "manual_review"
+  },
+  {
+    "bidder_id": "B005",
+    "rule_id": "R001",
+    "status": "REVIEW",
+    "requirement": "Vendor must have an annual turnover of at least ₹50 Lakhs.",
+    "required_value": "₹50 Lakhs",
+    "observed_value": "Conflicting evidence across documents/pages",
+    "reason": "Conflicting values found in submitted documents for parameter 'annual_turnover' for period 2025: Financial_Statement.pdf (page 20) reports 'Annual turnover FY2025: ₹65 Lakhs' while Financial_Statement.pdf (page 45) reports 'Annual turnover FY2025: ₹42 Lakhs'.",
+    "evidence": [
+      {
+        "text": "Annual turnover FY2025: ₹65 Lakhs",
+        "source_file": "Financial_Statement.pdf",
+        "page": 20
+      },
+      {
+        "text": "Annual turnover FY2025: ₹42 Lakhs",
+        "source_file": "Financial_Statement.pdf",
+        "page": 45
+      }
+    ],
+    "confidence": 1.0,
+    "method": "manual_review"
+  }
+]
+

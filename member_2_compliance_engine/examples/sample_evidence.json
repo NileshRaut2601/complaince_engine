@@ -1,0 +1,57 @@
+[
+  {
+    "rule_id": "R001",
+    "bidder_id": "B001",
+    "evidence": [
+      {
+        "text": "The company's reported annual turnover is ₹65 Lakhs.",
+        "source_file": "Financial_Statement.pdf",
+        "page": 42
+      }
+    ]
+  },
+  {
+    "rule_id": "R001",
+    "bidder_id": "B002",
+    "evidence": [
+      {
+        "text": "The company's reported annual turnover is ₹35 Lakhs.",
+        "source_file": "Financial_Statement.pdf",
+        "page": 12
+      }
+    ]
+  },
+  {
+    "rule_id": "R003",
+    "bidder_id": "B003",
+    "evidence": []
+  },
+  {
+    "rule_id": "R004",
+    "bidder_id": "B004",
+    "evidence": [
+      {
+        "text": "Supports up to 8 full-size modules OR up to 16 half-size modules. Memory may be 8 × 192 GB OR 16 × 96 GB.",
+        "source_file": "GPU_Datasheet.pdf",
+        "page": 12
+      }
+    ]
+  },
+  {
+    "rule_id": "R001",
+    "bidder_id": "B005",
+    "evidence": [
+      {
+        "text": "Annual turnover FY2025: ₹65 Lakhs",
+        "source_file": "Financial_Statement.pdf",
+        "page": 20
+      },
+      {
+        "text": "Annual turnover FY2025: ₹42 Lakhs",
+        "source_file": "Financial_Statement.pdf",
+        "page": 45
+      }
+    ]
+  }
+]
+
