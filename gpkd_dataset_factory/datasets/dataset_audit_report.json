@@ -1,0 +1,164 @@
+{
+  "audit_metadata": {
+    "dataset_name": "GPKD Phase-1 Tender Requirement Extraction",
+    "total_raw_records": 10000,
+    "split_counts": {
+      "train": 6572,
+      "validation": 1668,
+      "test": 1760
+    },
+    "split_ratios": {
+      "train": 0.6572,
+      "validation": 0.1668,
+      "test": 0.176
+    }
+  },
+  "schema_validation": {
+    "is_valid": true,
+    "invalid_count": 0,
+    "sample_errors": []
+  },
+  "zero_leakage_audit": {
+    "unique_families_total": 108,
+    "train_families_count": 71,
+    "val_families_count": 18,
+    "test_families_count": 19,
+    "family_leakage_detected": false,
+    "leaked_family_ids": {
+      "train_vs_val": [],
+      "train_vs_test": [],
+      "val_vs_test": []
+    },
+    "sentence_leakage_detected": false,
+    "leaked_sentence_counts": {
+      "train_vs_val": 0,
+      "train_vs_test": 0,
+      "val_vs_test": 0
+    }
+  },
+  "duplicate_and_collision_audit": {
+    "duplicate_id_count": 0,
+    "duplicate_input_count": 5286,
+    "exact_duplicate_input_rate": 0.5286,
+    "semantic_contradictory_collisions": 0,
+    "collision_samples": [],
+    "near_duplicate_count": 7746,
+    "near_duplicate_rate": 0.7746
+  },
+  "family_distribution_metrics": {
+    "total_families": 108,
+    "min_examples_per_family": 92,
+    "max_examples_per_family": 93,
+    "mean_examples_per_family": 92.59,
+    "median_examples_per_family": 93
+  },
+  "subdomain_and_operator_distributions": {
+    "categories": {
+      "technical": 2599,
+      "financial": 2232,
+      "experience": 930,
+      "delivery": 828,
+      "certification": 644,
+      "commercial": 644,
+      "ambiguous": 552,
+      "local_content": 460,
+      "tax_statutory": 372,
+      "msme": 279,
+      "oem": 276,
+      "legal": 184
+    },
+    "operators": {
+      ">=": 6497,
+      "==": 1014,
+      "exists": 740,
+      "<=": 644,
+      "None": 552,
+      "contains": 461,
+      "includes_all": 92
+    },
+    "difficulty_tiers": {
+      "medium": 4366,
+      "easy": 3264,
+      "hard": 2370
+    }
+  },
+  "inr_normalization_audit": {
+    "checked_count": 2173,
+    "passed_count": 2173,
+    "mismatch_count": 0,
+    "mismatches": []
+  },
+  "negation_and_inversion_audit": {
+    "inverted_records_count": 1415,
+    "issues_detected": 0,
+    "sample_issues": []
+  },
+  "ambiguity_audit": {
+    "ambiguous_count": 552,
+    "violations_count": 0,
+    "violations": []
+  },
+  "ocr_noise_audit": {
+    "ocr_count": 1000,
+    "target_corruption_count": 0,
+    "sample_corruptions": []
+  },
+  "tabular_structure_audit": {
+    "tabular_count": 833,
+    "well_formed_structural_tags": 822,
+    "structural_compliance_rate": 98.68
+  },
+  "repetitive_templates_audit": {
+    "top_10_repetitive_templates": [
+      {
+        "template": "the participating vendor shall demonstrate an average annual turnover of not less than rs 5 crores over the preceding 3 financial years",
+        "occurrences": 43
+      },
+      {
+        "template": "the participating vendor shall demonstrate an average annual turnover of not less than rs 2 crores over the preceding 3 financial years",
+        "occurrences": 43
+      },
+      {
+        "template": "the vendor shall have reported operating profit in each of the last 3 financial years as evidenced by audited statements",
+        "occurrences": 43
+      },
+      {
+        "template": "bidders may provide equivalent compliance documentation subject to scrutiny",
+        "occurrences": 43
+      },
+      {
+        "template": "the participating vendor shall demonstrate an average annual turnover of not less than rs 25 crores over the preceding 3 financial years",
+        "occurrences": 43
+      },
+      {
+        "template": "the goods and services tax registration of the participating vendor shall strictly remain in active status",
+        "occurrences": 43
+      },
+      {
+        "template": "the vendor is obligated to furnish verifiable proof of active goods and services tax gstin registration",
+        "occurrences": 43
+      },
+      {
+        "template": "the participating vendor shall demonstrate an average annual turnover of not less than rs 1 crores over the preceding 3 financial years",
+        "occurrences": 42
+      },
+      {
+        "template": "the vendor shall furnish a notarized declaration on non judicial stamp paper affirming non blacklisting by any public authority",
+        "occurrences": 42
+      },
+      {
+        "template": "participating entities shall be certified under both iso 9001 and iso 27001 quality frameworks at the time of bid submission",
+        "occurrences": 42
+      }
+    ]
+  },
+  "training_label_leakage_audit": {
+    "instruction_files_audited": [
+      "test_instruction.jsonl",
+      "train_instruction.jsonl",
+      "validation_instruction.jsonl"
+    ],
+    "findings_count": 0,
+    "findings": []
+  }
+}

@@ -1,0 +1,349 @@
+{
+  "categories": {
+    "financial": {
+      "display_name": "Financial Qualifications",
+      "fields": {
+        "annual_turnover": {
+          "description": "Minimum annual financial turnover of the bidder",
+          "operators": [">=", ">", "=="],
+          "type": "numeric",
+          "unit": "INR",
+          "allowed_units": ["INR", "lakhs", "crores"],
+          "sample_values": [2500000, 5000000, 10000000, 25000000, 50000000, 100000000, 250000000, 500000000]
+        },
+        "average_turnover": {
+          "description": "Average annual turnover over a specified period",
+          "operators": [">=", ">"],
+          "type": "numeric",
+          "unit": "INR",
+          "allowed_units": ["INR", "lakhs", "crores"],
+          "sample_values": [5000000, 10000000, 20000000, 50000000, 100000000],
+          "periods": ["preceding 3 financial years", "last 3 years", "past 5 financial years"]
+        },
+        "net_worth": {
+          "description": "Positive net worth or audited minimum net worth",
+          "operators": [">=", ">", "=="],
+          "type": "numeric",
+          "unit": "INR",
+          "allowed_units": ["INR", "lakhs", "crores"],
+          "sample_values": [1000000, 5000000, 10000000, 25000000]
+        },
+        "profitability": {
+          "description": "Requirement for net profit in consecutive financial years",
+          "operators": ["==", "exists"],
+          "type": "boolean",
+          "unit": null,
+          "sample_values": [true]
+        },
+        "solvency": {
+          "description": "Bank solvency certificate amount requirement",
+          "operators": [">=", "=="],
+          "type": "numeric",
+          "unit": "INR",
+          "allowed_units": ["INR", "lakhs", "crores"],
+          "sample_values": [2000000, 5000000, 10000000, 20000000]
+        }
+      }
+    },
+    "tax_statutory": {
+      "display_name": "Tax & Statutory Registrations",
+      "fields": {
+        "pan": {
+          "description": "Valid Permanent Account Number registration",
+          "operators": ["exists", "=="],
+          "type": "presence",
+          "unit": null,
+          "sample_values": [true, "valid"]
+        },
+        "gstin": {
+          "description": "Valid Goods and Services Tax Identification Number",
+          "operators": ["exists", "=="],
+          "type": "presence",
+          "unit": null,
+          "sample_values": [true, "active"]
+        },
+        "gst_status": {
+          "description": "Active status of GST registration",
+          "operators": ["==", "exact_match"],
+          "type": "string",
+          "unit": null,
+          "sample_values": ["ACTIVE"]
+        },
+        "itr_filing": {
+          "description": "Income Tax Returns filed for previous assessment years",
+          "operators": ["exists", ">="],
+          "type": "numeric",
+          "unit": "years",
+          "sample_values": [3, 5],
+          "periods": ["last 3 assessment years", "last 2 years"]
+        }
+      }
+    },
+    "msme": {
+      "display_name": "MSME / Udyam Entitlements",
+      "fields": {
+        "udyam": {
+          "description": "Valid Udyam Registration Certificate for MSMEs",
+          "operators": ["exists", "=="],
+          "type": "presence",
+          "unit": null,
+          "sample_values": [true]
+        },
+        "msme_classification": {
+          "description": "MSME classification category",
+          "operators": ["==", "contains"],
+          "type": "string",
+          "unit": null,
+          "sample_values": ["Micro", "Small", "Medium"]
+        },
+        "nsic_registration": {
+          "description": "National Small Industries Corporation registration",
+          "operators": ["exists", "=="],
+          "type": "presence",
+          "unit": null,
+          "sample_values": [true]
+        }
+      }
+    },
+    "experience": {
+      "display_name": "Experience & Prior Performance",
+      "fields": {
+        "years_of_experience": {
+          "description": "Minimum years of industry or domain experience",
+          "operators": [">=", ">"],
+          "type": "numeric",
+          "unit": "years",
+          "sample_values": [2, 3, 5, 7, 10]
+        },
+        "completed_projects": {
+          "description": "Number of successfully executed contracts or projects",
+          "operators": [">=", ">"],
+          "type": "numeric",
+          "unit": "projects",
+          "sample_values": [1, 2, 3, 5],
+          "periods": ["during the last 3 years", "past 5 years", "preceding 7 years"]
+        },
+        "government_project_experience": {
+          "description": "Demonstrated execution of Central/State Government projects",
+          "operators": ["exists", ">="],
+          "type": "numeric",
+          "unit": "projects",
+          "sample_values": [1, 2, 3]
+        },
+        "similar_product_experience": {
+          "description": "Specific experience in manufacturing/supplying similar goods",
+          "operators": [">=", "exists"],
+          "type": "numeric",
+          "unit": "years",
+          "sample_values": [2, 3, 5]
+        }
+      }
+    },
+    "technical": {
+      "display_name": "Technical & Hardware Specifications",
+      "fields": {
+        "cpu_cores": {
+          "description": "Number of processing cores per socket/node",
+          "operators": [">=", "=="],
+          "type": "numeric",
+          "unit": "cores",
+          "sample_values": [16, 32, 64, 128]
+        },
+        "gpu_memory": {
+          "description": "VRAM memory capacity per accelerator",
+          "operators": [">=", "=="],
+          "type": "numeric",
+          "unit": "GB",
+          "sample_values": [48, 80, 96, 144, 192]
+        },
+        "ram_capacity": {
+          "description": "System volatile memory capacity",
+          "operators": [">=", "=="],
+          "type": "numeric",
+          "unit": "GB",
+          "sample_values": [64, 128, 256, 512, 1024, 2048]
+        },
+        "storage_capacity": {
+          "description": "High-speed NVMe or SSD storage volume",
+          "operators": [">=", "=="],
+          "type": "numeric",
+          "unit": "TB",
+          "sample_values": [1, 2, 4, 8, 16, 32]
+        },
+        "network_bandwidth": {
+          "description": "Network throughput interface bandwidth",
+          "operators": [">=", "=="],
+          "type": "numeric",
+          "unit": "Gbps",
+          "sample_values": [10, 25, 40, 100, 200, 400]
+        },
+        "operating_temperature": {
+          "description": "Maximum rated ambient operating temperature",
+          "operators": ["<=", "<", "=="],
+          "type": "numeric",
+          "unit": "Celsius",
+          "sample_values": [40, 45, 50]
+        }
+      }
+    },
+    "certification": {
+      "display_name": "Industry & Quality Certifications",
+      "fields": {
+        "iso_certification": {
+          "description": "ISO standard conformity",
+          "operators": ["exists", "includes_all", "contains"],
+          "type": "string",
+          "unit": null,
+          "sample_values": ["ISO 9001", "ISO 27001", "ISO 14001", "ISO 20000"]
+        },
+        "bis_certification": {
+          "description": "Bureau of Indian Standards certification/mark",
+          "operators": ["exists", "=="],
+          "type": "presence",
+          "unit": null,
+          "sample_values": [true, "BIS mandatory"]
+        },
+        "stqc_certificate": {
+          "description": "STQC software or hardware testing certificate",
+          "operators": ["exists", "=="],
+          "type": "presence",
+          "unit": null,
+          "sample_values": [true]
+        },
+        "cert_in_audit": {
+          "description": "CERT-In empaneled security audit compliance",
+          "operators": ["exists", "=="],
+          "type": "presence",
+          "unit": null,
+          "sample_values": [true]
+        }
+      }
+    },
+    "oem": {
+      "display_name": "OEM & Manufacturer Authorizations",
+      "fields": {
+        "oem_authorization": {
+          "description": "Manufacturer Authorization Form (MAF) specific to tender",
+          "operators": ["==", "exists"],
+          "type": "presence",
+          "unit": null,
+          "sample_values": [true]
+        },
+        "authorized_distributor": {
+          "description": "Authorized tier-1 distributor status from OEM",
+          "operators": ["==", "exists"],
+          "type": "presence",
+          "unit": null,
+          "sample_values": [true]
+        },
+        "authorization_validity_period": {
+          "description": "Minimum remaining validity period of OEM authorization",
+          "operators": [">=", ">"],
+          "type": "numeric",
+          "unit": "months",
+          "sample_values": [12, 24, 36]
+        }
+      }
+    },
+    "local_content": {
+      "display_name": "Make in India & Local Content",
+      "fields": {
+        "local_content_percentage": {
+          "description": "Percentage of domestic local value addition",
+          "operators": [">=", ">"],
+          "type": "numeric",
+          "unit": "%",
+          "sample_values": [20, 50, 60, 80]
+        },
+        "make_in_india_class": {
+          "description": "MII Supplier classification tier",
+          "operators": ["==", "contains"],
+          "type": "string",
+          "unit": null,
+          "sample_values": ["Class-I Local Supplier", "Class-II Local Supplier"]
+        }
+      }
+    },
+    "legal": {
+      "display_name": "Legal Status & Debarment",
+      "fields": {
+        "is_debarred": {
+          "description": "Debarment or blacklisting status",
+          "operators": ["=="],
+          "type": "boolean",
+          "unit": null,
+          "sample_values": [false]
+        },
+        "non_blacklisting_declaration": {
+          "description": "Affidavit confirming non-debarment on stamp paper",
+          "operators": ["exists", "=="],
+          "type": "presence",
+          "unit": null,
+          "sample_values": [true]
+        },
+        "litigation_history": {
+          "description": "Declaration of pending arbitration or litigation",
+          "operators": ["exists", "=="],
+          "type": "presence",
+          "unit": null,
+          "sample_values": [true, "clean"]
+        }
+      }
+    },
+    "commercial": {
+      "display_name": "Commercial & Bid Security",
+      "fields": {
+        "emd_amount": {
+          "description": "Earnest Money Deposit amount in INR",
+          "operators": ["==", ">="],
+          "type": "numeric",
+          "unit": "INR",
+          "allowed_units": ["INR", "lakhs"],
+          "sample_values": [50000, 100000, 250000, 500000, 1000000]
+        },
+        "bid_security_declaration": {
+          "description": "Bid Security Declaration in lieu of EMD for MSMEs",
+          "operators": ["exists", "=="],
+          "type": "presence",
+          "unit": null,
+          "sample_values": [true]
+        },
+        "performance_bank_guarantee_percentage": {
+          "description": "Performance Security PBG percentage of contract value",
+          "operators": ["<=", "==", ">="],
+          "type": "numeric",
+          "unit": "%",
+          "sample_values": [3, 5, 10]
+        }
+      }
+    },
+    "delivery": {
+      "display_name": "Delivery, Installation & Warranty",
+      "fields": {
+        "delivery_period": {
+          "description": "Maximum allowable days for consignment delivery",
+          "operators": ["<=", "<", "=="],
+          "type": "numeric",
+          "unit": "days",
+          "sample_values": [15, 30, 45, 60, 90]
+        },
+        "installation_period": {
+          "description": "Maximum allowable days for site installation & commissioning",
+          "operators": ["<=", "<"],
+          "type": "numeric",
+          "unit": "days",
+          "sample_values": [7, 14, 21, 30]
+        },
+        "warranty_period": {
+          "description": "Mandatory comprehensive on-site warranty duration",
+          "operators": [">=", ">", "=="],
+          "type": "numeric",
+          "unit": "years",
+          "allowed_units": ["years", "months"],
+          "sample_values": [1, 2, 3, 5]
+        }
+      }
+    }
+  }
+}
+

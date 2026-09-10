@@ -1,0 +1,116 @@
+{
+  "operators": {
+    ">=": {
+      "symbol": ">=",
+      "name": "greater_than_or_equal",
+      "phrases": [
+        "at least",
+        "minimum",
+        "not less than",
+        "no less than",
+        "equal to or greater than",
+        "or more",
+        "not below",
+        "a minimum of",
+        "greater than or equal to"
+      ],
+      "table_labels": ["Min", "Minimum", "Min Requirement", "Threshold (Min)"]
+    },
+    "<=": {
+      "symbol": "<=",
+      "name": "less_than_or_equal",
+      "phrases": [
+        "at most",
+        "maximum",
+        "not exceeding",
+        "shall not exceed",
+        "must not exceed",
+        "up to a maximum of",
+        "within",
+        "no more than",
+        "less than or equal to"
+      ],
+      "table_labels": ["Max", "Maximum", "Upper Limit", "Cap"]
+    },
+    "==": {
+      "symbol": "==",
+      "name": "equals",
+      "phrases": [
+        "must be",
+        "shall strictly be",
+        "exactly",
+        "is required to be",
+        "must equal",
+        "stipulated as"
+      ],
+      "table_labels": ["Standard", "Specification", "Target"]
+    },
+    "!=": {
+      "symbol": "!=",
+      "name": "not_equals",
+      "phrases": [
+        "shall not be",
+        "must not be",
+        "cannot be",
+        "is strictly prohibited from being"
+      ],
+      "table_labels": ["Exclusion", "Prohibited"]
+    },
+    ">": {
+      "symbol": ">",
+      "name": "strictly_greater_than",
+      "phrases": [
+        "strictly greater than",
+        "exceeding",
+        "more than",
+        "above"
+      ],
+      "table_labels": ["Over", "Exceeding"]
+    },
+    "<": {
+      "symbol": "<",
+      "name": "strictly_less_than",
+      "phrases": [
+        "strictly less than",
+        "strictly below",
+        "under"
+      ],
+      "table_labels": ["Under", "Below"]
+    },
+    "exists": {
+      "symbol": "exists",
+      "name": "presence_required",
+      "phrases": [
+        "is mandatory",
+        "must be submitted",
+        "shall be furnished",
+        "must possess valid",
+        "is compulsory",
+        "submission is mandatory"
+      ],
+      "table_labels": ["Mandatory Submission", "Required Document"]
+    },
+    "includes_all": {
+      "symbol": "includes_all",
+      "name": "includes_all_items",
+      "phrases": [
+        "must possess all of the following:",
+        "shall hold both",
+        "must encompass each of",
+        "shall satisfy all listed standards"
+      ],
+      "table_labels": ["Comprehensive List", "All Required"]
+    },
+    "contains": {
+      "symbol": "contains",
+      "name": "contains_item",
+      "phrases": [
+        "must include",
+        "shall incorporate",
+        "should contain"
+      ],
+      "table_labels": ["Must Include", "Applicable Scope"]
+    }
+  }
+}
+

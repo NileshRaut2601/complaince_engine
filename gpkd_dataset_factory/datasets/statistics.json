@@ -1,0 +1,71 @@
+{
+  "total_examples": 10000,
+  "split_counts": {
+    "train": 6572,
+    "validation": 1668,
+    "test": 1760
+  },
+  "duplicate_metrics": {
+    "duplicate_id_count": 0,
+    "duplicate_input_count": 5286,
+    "duplicate_rate": 0.5286,
+    "semantic_collision_count": 0
+  },
+  "special_subsets": {
+    "ambiguous_examples": 552,
+    "ambiguous_percentage": 5.52,
+    "ocr_noise_examples": 1000,
+    "ocr_noise_percentage": 10.0,
+    "compound_examples": 92,
+    "compound_percentage": 0.92
+  },
+  "category_distribution": {
+    "technical": 2599,
+    "financial": 2232,
+    "experience": 930,
+    "delivery": 828,
+    "certification": 644,
+    "commercial": 644,
+    "ambiguous": 552,
+    "local_content": 460,
+    "tax_statutory": 372,
+    "msme": 279,
+    "oem": 276,
+    "legal": 184
+  },
+  "operator_distribution": {
+    ">=": 6497,
+    "==": 1014,
+    "exists": 740,
+    "<=": 644,
+    "None": 552,
+    "contains": 461,
+    "includes_all": 92
+  },
+  "difficulty_distribution": {
+    "medium": 4366,
+    "easy": 3264,
+    "hard": 2370
+  },
+  "unit_distribution": {
+    "INR": 2599,
+    "None": 2399,
+    "GB": 1116,
+    "years": 926,
+    "TB": 558,
+    "projects": 465,
+    "Gbps": 461,
+    "days": 460,
+    "%": 460,
+    "cores": 372,
+    "Celsius": 92,
+    "months": 92
+  },
+  "generation_methods": {
+    "procurement_formal": 4348,
+    "direct_declarative": 2431,
+    "legalistic_inversion": 1836,
+    "tabular": 833,
+    "ambiguous_disjunction": 552
+  }
+}

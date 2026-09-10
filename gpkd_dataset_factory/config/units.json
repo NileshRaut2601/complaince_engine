@@ -1,0 +1,42 @@
+{
+  "units": {
+    "currency": {
+      "canonical_unit": "INR",
+      "representations": {
+        "INR": { "multiplier": 1, "labels": ["INR", "₹", "Rs.", "Rs", "rupees", "Rupees"] },
+        "lakhs": { "multiplier": 100000, "labels": ["Lakh", "Lakhs", "lakh", "lakhs", "lac", "lacs"] },
+        "crores": { "multiplier": 10000000, "labels": ["Crore", "Crores", "crore", "crores", "Cr", "cr"] },
+        "million": { "multiplier": 1000000, "labels": ["Million", "Millions", "million", "millions", "M"] }
+      }
+    },
+    "storage": {
+      "canonical_unit": "GB",
+      "representations": {
+        "TB": { "multiplier": 1024, "labels": ["TB", "tb", "Terabyte", "Terabytes", "terabyte", "terabytes"] },
+        "GB": { "multiplier": 1, "labels": ["GB", "gb", "Gigabyte", "Gigabytes", "gigabyte", "gigabytes"] },
+        "MB": { "multiplier": 0.0009765625, "labels": ["MB", "mb", "Megabyte", "megabytes"] }
+      }
+    },
+    "time": {
+      "canonical_unit": "years",
+      "representations": {
+        "years": { "multiplier": 1, "labels": ["year", "years", "yr", "yrs"] },
+        "months": { "multiplier": 0.08333333333333333, "labels": ["month", "months", "mo", "mos"] },
+        "days": { "multiplier": 0.0027397260273972603, "labels": ["day", "days", "calendar days", "working days"] }
+      }
+    },
+    "percentage": {
+      "canonical_unit": "%",
+      "representations": {
+        "%": { "multiplier": 1, "labels": ["%", "percent", "percentage", "pct"] }
+      }
+    },
+    "quantity": {
+      "canonical_unit": "units",
+      "representations": {
+        "units": { "multiplier": 1, "labels": ["units", "unit", "nos", "numbers", "pieces", "projects", "contracts"] }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "GPKDTrainingExample",
+  "type": "object",
+  "required": ["id", "input", "target", "metadata"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^GPKD_[0-9]{6}$"
+    },
+    "input": {
+      "type": "string",
+      "minLength": 5
+    },
+    "target": {
+      "$ref": "requirement_schema.json"
+    },
+    "metadata": {
+      "type": "object",
+      "required": [
+        "source",
+        "family_id",
+        "category",
+        "difficulty",
+        "generation_method",
+        "generator_version"
+      ],
+      "properties": {
+        "source": {
+          "type": "string",
+          "const": "synthetic"
+        },
+        "family_id": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "difficulty": {
+          "type": "string",
+          "enum": ["easy", "medium", "hard"]
+        },
+        "generation_method": {
+          "type": "string"
+        },
+        "noise_type": {
+          "type": ["string", "null"],
+          "enum": ["ocr", "character_noise", null]
+        },
+        "generator_version": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
+
